@@ -1,7 +1,7 @@
 /* eslint-disable import/no-cycle */
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-import { baseQueryWithReAuth } from './baseQueryWithReAuth';
+// import { baseQueryWithReAuth } from './baseQueryWithReAuth';
 
 const tags: string[] | [] = [];
 // export const privateApiSlice = createApi({

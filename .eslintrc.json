@@ -58,6 +58,17 @@
         "excludedReplacements": []
       }
     ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+          "": "never",
+          "js": "never",
+          "jsx": "never",
+          "ts": "never",
+          "tsx": "never"
+      }
+  ],
     "radix": ["error", "as-needed"],
     "spaced-comment": [
       "error",

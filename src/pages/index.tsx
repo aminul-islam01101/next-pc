@@ -13,13 +13,13 @@ const Home = () => {
   return (
     <>
       <Header head={head} />
-      <h1>hello next with husky </h1>
+      <h1>hello next with husky test </h1>
     </>
   );
 };
 
 Home.getLayout = function getLayout(page: ReactElement) {
-  return <RootLayout >{page}</RootLayout>;
+  return <RootLayout>{page}</RootLayout>;
 };
 
 export default Home;
