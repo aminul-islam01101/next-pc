@@ -1,0 +1,894 @@
+[
+  {
+    "image": "processor1.jpg",
+    "productName": "AMD Ryzen 7 5800X",
+    "category": "processor",
+    "status": "In Stock",
+    "price": 399.99,
+    "description": "The AMD Ryzen 7 5800X offers outstanding multi-core performance for gaming and productivity tasks.",
+    "keyFeatures": ["8 Cores", "16 Threads", "Base Clock: 3.8GHz", "Max Boost Clock: 4.7GHz"],
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "reviewer": "GamingPro99",
+        "time": "2023-07-25T14:20:54.471+00:00",
+        "message": "A beast of a CPU! Handles all my games with ease."
+      },
+      {
+        "reviewer": "ContentCreator123",
+        "time": "2023-07-26T09:15:32.591+00:00",
+        "message": "Smooth performance for my video editing workflow."
+      },
+      {
+        "reviewer": "TechEnthusiast22",
+        "time": "2023-07-27T17:40:10.832+00:00",
+        "message": "Highly impressed with its efficiency and power."
+      }
+    ]
+  },
+  {
+    "image": "processor2.jpg",
+    "productName": "Intel Core i5-12600K",
+    "category": "processor",
+    "status": "In Stock",
+    "price": 299.99,
+    "description": "The Intel Core i5-12600K delivers great gaming performance and improved AI capabilities.",
+    "keyFeatures": ["6 Cores", "12 Threads", "Base Clock: 3.7GHz", "Max Boost Clock: 4.9GHz"],
+    "individualRating": 4.4,
+    "averageRating": 4.3,
+    "reviews": [
+      {
+        "reviewer": "GamerX",
+        "time": "2023-07-25T11:50:23.112+00:00",
+        "message": "An excellent CPU for my gaming setup."
+      },
+      {
+        "reviewer": "TechWizard101",
+        "time": "2023-07-26T08:05:12.711+00:00",
+        "message": "Handles both gaming and productivity tasks very well."
+      },
+      {
+        "reviewer": "BudgetBuilder2023",
+        "time": "2023-07-27T19:20:18.932+00:00",
+        "message": "Great value for money and smooth performance."
+      }
+    ]
+  },
+  {
+    "image": "processor3.jpg",
+    "productName": "AMD Ryzen 5 5600G",
+    "category": "processor",
+    "status": "In Stock",
+    "price": 249.99,
+    "description": "The AMD Ryzen 5 5600G comes with integrated graphics and is perfect for budget-friendly builds.",
+    "keyFeatures": ["6 Cores", "12 Threads", "Base Clock: 3.9GHz", "Max Boost Clock: 4.4GHz"],
+    "individualRating": 4.3,
+    "averageRating": 4.2,
+    "reviews": [
+      {
+        "reviewer": "CasualGamer2023",
+        "time": "2023-07-24T14:30:45.871+00:00",
+        "message": "Solid CPU for light gaming and everyday tasks."
+      },
+      {
+        "reviewer": "TechEnthusiast99",
+        "time": "2023-07-26T09:50:20.542+00:00",
+        "message": "Impressed with the performance considering the price."
+      },
+      {
+        "reviewer": "PCBuilder2023",
+        "time": "2023-07-27T21:05:58.312+00:00",
+        "message": "The integrated graphics are surprisingly capable."
+      }
+    ]
+  },
+  {
+    "image": "processor4.jpg",
+    "productName": "Intel Core i3-10100",
+    "category": "processor",
+    "status": "In Stock",
+    "price": 149.99,
+    "description": "The Intel Core i3-10100 is a budget-friendly CPU with decent performance for everyday tasks.",
+    "keyFeatures": ["4 Cores", "8 Threads", "Base Clock: 3.6GHz", "Max Boost Clock: 4.3GHz"],
+    "individualRating": 4.1,
+    "averageRating": 4.0,
+    "reviews": [
+      {
+        "reviewer": "EverydayUser123",
+        "time": "2023-07-25T10:15:12.512+00:00",
+        "message": "A solid CPU for my general computing needs."
+      },
+      {
+        "reviewer": "OfficeWorker2023",
+        "time": "2023-07-26T07:40:30.091+00:00",
+        "message": "Handles office tasks and web browsing without issues."
+      },
+      {
+        "reviewer": "BudgetBuilder2023",
+        "time": "2023-07-27T18:15:54.982+00:00",
+        "message": "Perfect for my budget build. No complaints."
+      }
+    ]
+  },
+
+  {
+    "image": "motherboard1.jpg",
+    "productName": "ASUS ROG Strix X570-E Gaming",
+    "category": "motherboard",
+    "status": "In Stock",
+    "price": 279.99,
+    "description": "The ASUS ROG Strix X570-E Gaming motherboard offers high-end features and excellent performance for enthusiasts.",
+    "keyFeatures": ["Socket AM4", "ATX Form Factor", "AMD X570 Chipset", "Supports PCIe 4.0"],
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "reviewer": "GamingMaster99",
+        "time": "2023-07-25T14:40:21.731+00:00",
+        "message": "Top-notch motherboard for gaming and overclocking."
+      },
+      {
+        "reviewer": "TechEnthusiast22",
+        "time": "2023-07-26T09:25:43.491+00:00",
+        "message": "Impressive build quality and stability."
+      },
+      {
+        "reviewer": "ProBuilder2023",
+        "time": "2023-07-27T17:55:19.882+00:00",
+        "message": "Great VRM design for handling power-hungry CPUs."
+      }
+    ]
+  },
+  {
+    "image": "motherboard2.jpg",
+    "productName": "MSI B550 TOMAHAWK",
+    "category": "motherboard",
+    "status": "In Stock",
+    "price": 189.99,
+    "description": "The MSI B550 TOMAHAWK offers a feature-rich experience and solid performance for mid-range builds",
+
+    "keyFeatures": ["Socket AM4", "ATX Form Factor", "AMD B550 Chipset", "Supports PCIe 4.0"],
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "reviewer": "GamerX",
+        "time": "2023-07-25T11:55:14.321+00:00",
+        "message": "Rock-solid motherboard with great connectivity options."
+      },
+      {
+        "reviewer": "TechWizard101",
+        "time": "2023-07-26T08:15:32.371+00:00",
+        "message": "Easy BIOS setup and impressive performance."
+      },
+      {
+        "reviewer": "BudgetBuilder2023",
+        "time": "2023-07-27T20:05:11.642+00:00",
+        "message": "A perfect balance of features and price."
+      }
+    ]
+  },
+  {
+    "image": "motherboard3.jpg",
+    "productName": "GIGABYTE Z590 AORUS ULTRA",
+    "category": "motherboard",
+    "status": "In Stock",
+    "price": 329.99,
+    "description": "The GIGABYTE Z590 AORUS ULTRA motherboard delivers premium features and exceptional performance for high-end builds.",
+    "keyFeatures": ["Socket LGA1200", "ATX Form Factor", "Intel Z590 Chipset", "Supports PCIe 4.0"],
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "reviewer": "GamingPro456",
+        "time": "2023-07-25T13:30:28.871+00:00",
+        "message": "An amazing motherboard with robust VRMs."
+      },
+      {
+        "reviewer": "ContentCreatorPro",
+        "time": "2023-07-26T09:35:11.982+00:00",
+        "message": "Great aesthetics and superb performance."
+      },
+      {
+        "reviewer": "TechGeek22",
+        "time": "2023-07-27T16:45:54.312+00:00",
+        "message": "Solid build quality and stable overclocking."
+      }
+    ]
+  },
+  {
+    "image": "motherboard4.jpg",
+    "productName": "ASRock B450M PRO4",
+    "category": "motherboard",
+    "status": "In Stock",
+    "price": 99.99,
+    "description": "The ASRock B450M PRO4 is a budget-friendly motherboard that offers reliable performance for entry-level builds.",
+    "keyFeatures": [
+      "Socket AM4",
+      "Micro ATX Form Factor",
+      "AMD B450 Chipset",
+      "Supports DDR4-3200"
+    ],
+    "individualRating": 4.2,
+    "averageRating": 4.1,
+    "reviews": [
+      {
+        "reviewer": "CasualUser123",
+        "time": "2023-07-25T10:55:30.871+00:00",
+        "message": "Decent motherboard for basic computing tasks."
+      },
+      {
+        "reviewer": "BudgetBuilder2023",
+        "time": "2023-07-26T08:25:09.782+00:00",
+        "message": "A solid choice for an affordable PC build."
+      },
+      {
+        "reviewer": "EverydayGamer2023",
+        "time": "2023-07-27T18:30:27.432+00:00",
+        "message": "Works well for light gaming and web browsing."
+      }
+    ]
+  },
+
+  {
+    "image": "ram1.jpg",
+    "productName": "Corsair Vengeance RGB Pro 32GB (2x16GB)",
+    "category": "ram",
+    "status": "In Stock",
+    "price": 219.99,
+    "description": "Corsair Vengeance RGB Pro offers stunning aesthetics and high-performance memory for gaming and content creation.",
+    "keyFeatures": ["32GB DDR4", "3600MHz", "CAS Latency 18", "RGB Lighting"],
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "reviewer": "GamingNinja",
+        "time": "2023-07-25T15:15:12.112+00:00",
+        "message": "Fast and beautiful RGB lighting effects."
+      },
+      {
+        "reviewer": "ContentCreatorPro",
+        "time": "2023-07-26T08:40:45.987+00:00",
+        "message": "Reliable and stable performance for my video editing tasks."
+      },
+      {
+        "reviewer": "TechGuru99",
+        "time": "2023-07-27T16:35:30.654+00:00",
+        "message": "The ram complements my build perfectly."
+      }
+    ]
+  },
+  {
+    "image": "ram2.jpg",
+    "productName": "G.SKILL Ripjaws V 64GB (2x32GB)",
+    "category": "ram",
+    "status": "In Stock",
+    "price": 329.99,
+    "description": "G.SKILL Ripjaws V offers high-capacity memory and excellent performance for heavy multitasking and rendering tasks.",
+    "keyFeatures": ["64GB DDR4", "3200MHz", "CAS Latency 16", "Non-RGB"],
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "reviewer": "ProfessionalDesigner",
+        "time": "2023-07-25T13:50:42.171+00:00",
+        "message": "Excellent for my graphic design and 3D rendering work."
+      },
+      {
+        "reviewer": "TechEnthusiast99",
+        "time": "2023-07-26T09:50:20.542+00:00",
+        "message": "Fast and reliable memory for my content creation tasks."
+      },
+      {
+        "reviewer": "PCBuilder2023",
+        "time": "2023-07-27T21:05:58.312+00:00",
+        "message": "Impressed with its stability and performance."
+      }
+    ]
+  },
+  {
+    "image": "ram3.jpg",
+    "productName": "Crucial Ballistix 16GB (2x8GB)",
+    "category": "ram",
+    "status": "In Stock",
+    "price": 149.99,
+    "description": "Crucial Ballistix offers reliable memory at a budget-friendly price for mainstream computing needs.",
+    "keyFeatures": ["16GB DDR4", "3000MHz", "CAS Latency 16", "Non-RGB"],
+    "individualRating": 4.3,
+    "averageRating": 4.2,
+    "reviews": [
+      {
+        "reviewer": "CasualUser123",
+        "time": "2023-07-25T10:15:12.512+00:00",
+        "message": "Fast and affordable memory for everyday use."
+      },
+      {
+        "reviewer": "BudgetBuilder2023",
+        "time": "2023-07-26T07:40:30.091+00:00",
+        "message": "Perfect for my budget build. No complaints."
+      },
+      {
+        "reviewer": "EverydayGamer2023",
+        "time": "2023-07-27T18:15:54.982+00:00",
+        "message": "A reliable choice for gaming and web browsing."
+      }
+    ]
+  },
+  {
+    "image": "ram4.jpg",
+    "productName": "Team T-FORCE DARK Z 64GB (2x32GB)",
+    "category": "ram",
+    "status": "In Stock",
+    "price": 299.99,
+    "description": "Team T-FORCE DARK Z offers high-capacity memory and a sleek design for gaming and content creation enthusiasts.",
+    "keyFeatures": ["64GB DDR4", "3200MHz", "CAS Latency 16", "Non-RGB"],
+    "individualRating": 4.4,
+    "averageRating": 4.3,
+    "reviews": [
+      {
+        "reviewer": "GamingBeast2023",
+        "time": "2023-07-25T14:55:39.671+00:00",
+        "message": "Fast and reliable memory for my gaming setup."
+      },
+      {
+        "reviewer": "ContentCreatorPro",
+        "time": "2023-07-26T09:35:11.982+00:00",
+        "message": "Great for multitasking and video editing."
+      },
+      {
+        "reviewer": "TechGeek22",
+        "time": "2023-07-27T16:45:54.312+00:00",
+        "message": "High-quality ram with impressive performance."
+      }
+    ]
+  },
+
+  {
+    "image": "psu1.jpg",
+    "productName": "Corsair RM850x",
+    "category": "power-supply-unit",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "The Corsair RM850x offers reliable power delivery and is fully modular for easy cable management.",
+    "keyFeatures": ["850W", "80 PLUS Gold Certified", "Fully Modular", "Zero RPM Fan Mode"],
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "reviewer": "PCBuilder2023",
+        "time": "2023-07-25T13:20:18.721+00:00",
+        "message": "Quiet operation and efficient power delivery."
+      },
+      {
+        "reviewer": "TechEnthusiast22",
+        "time": "2023-07-26T09:15:45.832+00:00",
+        "message": "High-quality PSU for my high-end build."
+      },
+      {
+        "reviewer": "ProGamer99",
+        "time": "2023-07-27T17:30:21.511+00:00",
+        "message": "Stable power output even during intense gaming sessions."
+      }
+    ]
+  },
+  {
+    "image": "psu2.jpg",
+    "productName": "EVGA 600 BQ",
+    "category": "power-supply-unit",
+    "status": "In Stock",
+    "price": 69.99,
+    "description": "The EVGA 600 BQ is a budget-friendly PSU that offers reliable performance for entry-level builds.",
+    "keyFeatures": ["600W", "80 PLUS Bronze Certified", "Semi-Modular", "Quiet Fan"],
+    "individualRating": 4.5,
+    "averageRating": 4.4,
+    "reviews": [
+      {
+        "reviewer": "BudgetBuilder2023",
+        "time": "2023-07-25T12:50:39.881+00:00",
+        "message": "Affordable and gets the job done."
+      },
+      {
+        "reviewer": "EverydayUser123",
+        "time": "2023-07-26T08:30:10.542+00:00",
+        "message": "A reliable PSU for basic computing needs."
+      },
+      {
+        "reviewer": "CasualGamer2023",
+        "time": "2023-07-27T19:05:16.312+00:00",
+        "message": "No issues so far. Good value for money."
+      }
+    ]
+  },
+  {
+    "image": "psu3.jpg",
+    "productName": "Seasonic Focus GX-850",
+    "category": "power-supply-unit",
+    "status": "In Stock",
+    "price": 169.99,
+    "description": "The Seasonic Focus GX-850 offers excellent efficiency and stability for high-performance builds.",
+    "keyFeatures": ["850W", "80 PLUS Gold Certified", "Fully Modular", "Hybrid Silent Fan Control"],
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "reviewer": "GamingPro456",
+        "time": "2023-07-25T14:40:21.731+00:00",
+        "message": "Reliable and efficient power supply for my gaming rig."
+      },
+      {
+        "reviewer": "TechEnthusiast22",
+        "time": "2023-07-26T09:25:43.491+00:00",
+        "message": "High-quality components and quiet operation."
+      },
+      {
+        "reviewer": "ProBuilder2023",
+        "time": "2023-07-27T17:55:19.882+00:00",
+        "message": "Great choice for a high-end build. No complaints."
+      }
+    ]
+  },
+  {
+    "image": "psu4.jpg",
+    "productName": "Thermaltake Smart 500W",
+    "category": "power-supply-unit",
+    "status": "In Stock",
+    "price": 49.99,
+    "description": "The Thermaltake Smart 500W is a reliable PSU with stable power delivery for mainstream builds.",
+    "keyFeatures": ["500W", "80 PLUS White Certified", "Non-Modular", "Quiet Fan"],
+    "individualRating": 4.3,
+    "averageRating": 4.2,
+    "reviews": [
+      {
+        "reviewer": "CasualUser123",
+        "time": "2023-07-25T10:55:30.871+00:00",
+        "message": "A budget-friendly PSU for my basic PC."
+      },
+      {
+        "reviewer": "BudgetBuilder2023",
+        "time": "2023-07-26T08:25:09.782+00:00",
+        "message": "Works well for my daily computing tasks."
+      },
+      {
+        "reviewer": "EverydayGamer2023",
+        "time": "2023-07-27T18:30:27.432+00:00",
+        "message": "Reliable PSU for my entry-level gaming setup."
+      }
+    ]
+  },
+
+  {
+    "image": "storage1.jpg",
+    "productName": "Samsung 980 PRO 1TB NVMe SSD",
+    "category": "storage-device",
+    "status": "In Stock",
+    "price": 199.99,
+    "description": "The Samsung 980 PRO delivers lightning-fast performance with PCIe 4.0 support for enthusiasts and professionals.",
+    "keyFeatures": [
+      "1TB Capacity",
+      "NVMe M.2 Form Factor",
+      "Read Speed: Up to 7000 MB/s",
+      "Write Speed: Up to 5000 MB/s"
+    ],
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "reviewer": "SpeedDemon2023",
+        "time": "2023-07-25T15:30:14.421+00:00",
+        "message": "Incredibly fast and responsive SSD."
+      },
+      {
+        "reviewer": "ProContentCreator",
+        "time": "2023-07-26T08:55:45.811+00:00",
+        "message": "Perfect for editing 4K videos and large projects."
+      },
+      {
+        "reviewer": "TechGeek22",
+        "time": "2023-07-27T16:50:12.332+00:00",
+        "message": "One of the best NVMe SSDs available."
+      }
+    ]
+  },
+  {
+    "image": "storage2.jpg",
+    "productName": "Crucial MX500 2TB SATA SSD",
+    "category": "storage-device",
+    "status": "In Stock",
+    "price": 249.99,
+    "description": "The Crucial MX500 offers high capacity and fast performance for reliable storage solutions.",
+    "keyFeatures": [
+      "2TB Capacity",
+      "2.5-inch Form Factor",
+      "Read Speed: Up to 560 MB/s",
+      "Write Speed: Up to 510 MB/s"
+    ],
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "reviewer": "BudgetBuilder2023",
+        "time": "2023-07-25T12:40:08.711+00:00",
+        "message": "Affordable and spacious SSD for my files."
+      },
+      {
+        "reviewer": "EverydayUser123",
+        "time": "2023-07-26T09:10:19.231+00:00",
+        "message": "Quick boot times and reliable storage."
+      },
+      {
+        "reviewer": "CasualGamer2023",
+        "time": "2023-07-27T18:55:32.421+00:00",
+        "message": "A reliable choice for my gaming library."
+      }
+    ]
+  },
+  {
+    "image": "storage3.jpg",
+    "productName": "Western Digital Blue 1TB HDD",
+    "category": "storage-device",
+    "status": "In Stock",
+    "price": 59.99,
+    "description": "The Western Digital Blue HDD offers high-capacity storage for users seeking cost-effective solutions.",
+    "keyFeatures": ["1TB Capacity", "3.5-inch Form Factor", "7200 RPM", "SATA 6Gb/s"],
+    "individualRating": 4.4,
+    "averageRating": 4.3,
+    "reviews": [
+      {
+        "reviewer": "CasualUser123",
+        "time": "2023-07-25T10:35:22.721+00:00",
+        "message": "A reliable and affordable storage option."
+      },
+      {
+        "reviewer": "BudgetBuilder2023",
+        "time": "2023-07-26T08:15:09.632+00:00",
+        "message": "Works well for storing large files."
+      },
+      {
+        "reviewer": "EverydayGamer2023",
+        "time": "2023-07-27T17:25:38.511+00:00",
+        "message": "Decent HDD for my game installations."
+      }
+    ]
+  },
+  {
+    "image": "storage4.jpg",
+    "productName": "Seagate FireCuda 2TB SSHD",
+    "category": "storage-device",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "The Seagate FireCuda SSHD offers a balance of speed and capacity with a combination of SSD and HDD technology.",
+    "keyFeatures": ["2TB Capacity", "2.5-inch Form Factor", "SSD Cache", "7200 RPM"],
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "reviewer": "GamingBeast2023",
+        "time": "2023-07-25T13:15:15.611+00:00",
+        "message": "Faster loading times in games compared to traditional HDDs."
+      },
+      {
+        "reviewer": "TechEnthusiast99",
+        "time": "2023-07-26T09:45:20.491+00:00",
+        "message": "A great blend of speed and storage space."
+      },
+      {
+        "reviewer": "ProContentCreator",
+        "time": "2023-07-27T16:40:18.831+00:00",
+        "message": "Perfect for storing large media projects."
+      }
+    ]
+  },
+
+  {
+    "image": "monitor1.jpg",
+    "productName": "ASUS ROG Swift PG279Q",
+    "category": "monitor",
+    "status": "In Stock",
+    "price": 599.99,
+    "description": "The ASUS ROG Swift PG279Q offers a high-refresh-rate and G-SYNC support for smooth gaming visuals.",
+    "keyFeatures": ["27-inch", "2560x1440 resolution", "165Hz refresh rate", "G-SYNC technology"],
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "reviewer": "GamingMaster99",
+        "time": "2023-07-25T14:50:28.421+00:00",
+        "message": "An exceptional gaming monitor with no screen tearing."
+      },
+      {
+        "reviewer": "ProGamer456",
+        "time": "2023-07-26T08:35:14.531+00:00",
+        "message": "Amazing color accuracy and response time."
+      },
+      {
+        "reviewer": "TechEnthusiast22",
+        "time": "2023-07-27T17:50:19.782+00:00",
+        "message": "Perfect for both gaming and content creation."
+      }
+    ]
+  },
+  {
+    "image": "monitor2.jpg",
+    "productName": "LG 34GN850-B",
+    "category": "monitor",
+    "status": "In Stock",
+    "price": 799.99,
+    "description": "The LG 34GN850-B offers an ultrawide QHD display and high refresh rate for an immersive gaming experience.",
+    "keyFeatures": [
+      "34-inch",
+      "3440x1440 resolution",
+      "160Hz refresh rate",
+      "NVIDIA G-SYNC compatible"
+    ],
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "reviewer": "GamingPro456",
+        "time": "2023-07-25T13:40:12.621+00:00",
+        "message": "A stunning ultrawide monitor for gaming and productivity."
+      },
+      {
+        "reviewer": "ContentCreatorPro",
+        "time": "2023-07-26T09:25:55.821+00:00",
+        "message": "Great for multitasking and editing workflows."
+      },
+      {
+        "reviewer": "TechGeek22",
+        "time": "2023-07-27T16:55:20.231+00:00",
+        "message": "The ultrawide aspect ratio adds a new dimension to gaming."
+      }
+    ]
+  },
+  {
+    "image": "monitor3.jpg",
+    "productName": "Acer Nitro XV272U",
+    "category": "monitor",
+    "status": "In Stock",
+    "price": 349.99,
+    "description": "The Acer Nitro XV272U offers a budget-friendly QHD monitor with a high refresh rate for gaming enthusiasts.",
+    "keyFeatures": [
+      "27-inch",
+      "2560x1440 resolution",
+      "170Hz refresh rate",
+      "AMD FreeSync Premium"
+    ],
+    "individualRating": 4.5,
+    "averageRating": 4.4,
+    "reviews": [
+      {
+        "reviewer": "CasualGamer2023",
+        "time": "2023-07-25T10:40:32.732+00:00",
+        "message": "A great monitor for gaming on a budget."
+      },
+      {
+        "reviewer": "BudgetBuilder2023",
+        "time": "2023-07-26T08:20:18.421+00:00",
+        "message": "Smooth and responsive gaming experience."
+      },
+      {
+        "reviewer": "EverydayUser123",
+        "time": "2023-07-27T17:35:45.582+00:00",
+        "message": "Impressed with the quality for the price."
+      }
+    ]
+  },
+  {
+    "image": "monitor4.jpg",
+    "productName": "Dell UltraSharp U2719D",
+    "category": "monitor",
+    "status": "In Stock",
+    "price": 399.99,
+    "description": "The Dell UltraSharp U2719D offers a professional-grade QHD display with accurate colors for content creators.",
+    "keyFeatures": [
+      "27-inch",
+      "2560x1440 resolution",
+      "60Hz refresh rate",
+      "99% sRGB color coverage"
+    ],
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "reviewer": "ProfessionalDesigner",
+        "time": "2023-07-25T12:55:49.911+00:00",
+        "message": "An excellent monitor for graphic design and photo editing."
+      },
+      {
+        "reviewer": "TechEnthusiast99",
+        "time": "2023-07-26T09:05:23.751+00:00",
+        "message": "Accurate colors and great viewing angles."
+      },
+      {
+        "reviewer": "ProContentCreator",
+        "time": "2023-07-27T16:45:18.391+00:00",
+        "message": "Ideal for professional content creation tasks."
+      }
+    ]
+  },
+
+  {
+    "image": "other1.jpg",
+    "productName": "Logitech G Pro X Mechanical Gaming Keyboard",
+    "category": "others",
+    "status": "In Stock",
+    "price": 149.99,
+    "description": "The Logitech G Pro X offers a customizable mechanical gaming keyboard for competitive gaming.",
+    "keyFeatures": ["RGB Lighting", "Detachable Cable", "Customizable Switches"],
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "reviewer": "GamingNinja",
+        "time": "2023-07-25T15:25:18.321+00:00",
+        "message": "Great build quality and comfortable keys."
+      },
+      {
+        "reviewer": "ProGamer456",
+        "time": "2023-07-26T08:40:09.631+00:00",
+        "message": "Customizable switches are a game-changer."
+      },
+      {
+        "reviewer": "TechEnthusiast22",
+        "time": "2023-07-27T17:55:15.891+00:00",
+        "message": "Perfect for my competitive gaming needs."
+      }
+    ]
+  },
+  {
+    "image": "other2.jpg",
+    "productName": "Razer DeathAdder V2 Gaming Mouse",
+    "category": "others",
+    "status": "In Stock",
+    "price": 69.99,
+    "description": "The Razer DeathAdder V2 offers a high-precision gaming mouse with customizable buttons and RGB lighting.",
+    "keyFeatures": [
+      "TrueFocus Optical Sensor",
+      "16,000 DPI",
+      "8 Programmable Buttons",
+      "RGB Lighting"
+    ],
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "reviewer": "GamingPro456",
+        "time": "2023-07-25T13:35:14.121+00:00",
+        "message": "Responsive and accurate tracking for gaming."
+      },
+      {
+        "reviewer": "ProGamer99",
+        "time": "2023-07-26T09:15:28.511+00:00",
+        "message": "Comfortable grip and smooth gliding."
+      },
+      {
+        "reviewer": "TechEnthusiast22",
+        "time": "2023-07-27T17:45:19.611+00:00",
+        "message": "A solid choice for competitive gamers."
+      }
+    ]
+  },
+  {
+    "image": "other3.jpg",
+    "productName": "Blue Yeti USB Microphone",
+    "category": "others",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "The Blue Yeti is a popular USB microphone for high-quality recordings and streaming.",
+    "keyFeatures": ["Tri-capsule Array", "4 Pickup Patterns", "Headphone Output", "Gain Control"],
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "reviewer": "ProStreamer2023",
+        "time": "2023-07-25T15:10:24.421+00:00",
+        "message": "Crystal clear audio quality for streaming."
+      },
+      {
+        "reviewer": "ContentCreatorPro",
+        "time": "2023-07-26T08:50:11.721+00:00",
+        "message": "Excellent for recording voice-overs and podcasts."
+      },
+      {
+        "reviewer": "TechEnthusiast22",
+        "time": "2023-07-27T17:40:35.781+00:00",
+        "message": "A versatile microphone with great features."
+      }
+    ]
+  },
+  {
+    "image": "other4.jpg",
+    "productName": "Anker PowerCore 10000 Portable Charger",
+    "category": "others",
+    "status": "In Stock",
+    "price": 29.99,
+    "description": "The Anker PowerCore 10000 is a compact and high-capacity portable charger for your devices on the go.",
+    "keyFeatures": [
+      "10,000mAh Capacity",
+      "PowerIQ Technology",
+      "Compact and Lightweight",
+      "Universal Compatibility"
+    ],
+    "individualRating": 4.5,
+    "averageRating": 4.4,
+    "reviews": [
+      {
+        "reviewer": "EverydayUser123",
+        "time": "2023-07-25T10:50:14.591+00:00",
+        "message": "Keeps my devices charged during travel."
+      },
+      {
+        "reviewer": "BudgetTraveler2023",
+        "time": "2023-07-26T08:30:25.412+00:00",
+        "message": "Fits easily in my bag and provides reliable power."
+      },
+      {
+        "reviewer": "TechGeek22",
+        "time": "2023-07-27T17:25:58.151+00:00",
+        "message": "A must-have for frequent travelers."
+      }
+    ]
+  },
+  {
+    "image": "other5.jpg",
+    "productName": "AmazonBasics Laptop Sleeve",
+    "category": "others",
+    "status": "In Stock",
+    "price": 15.99,
+    "description": "The AmazonBasics Laptop Sleeve offers essential protection for your laptop with a slim and stylish design.",
+    "keyFeatures": ["Slim Design", "Padded Interior", "Water-resistant", "Various Size Options"],
+    "individualRating": 4.3,
+    "averageRating": 4.2,
+    "reviews": [
+      {
+        "reviewer": "EverydayUser123",
+        "time": "2023-07-25T10:25:18.791+00:00",
+        "message": "Fits my laptop perfectly and protects it well."
+      },
+      {
+        "reviewer": "BudgetStudent2023",
+        "time": "2023-07-26T08:10:30.092+00:00",
+        "message": "Affordable and reliable laptop sleeve."
+      },
+      {
+        "reviewer": "TechGeek22",
+        "time": "2023-07-27T17:15:14.531+00:00",
+        "message": "Simple yet effective laptop protection."
+      }
+    ]
+  },
+  {
+    "image": "other6.jpg",
+    "productName": "Sony WH-1000XM4 Wireless Headphones",
+    "category": "others",
+    "status": "In Stock",
+    "price": 349.99,
+    "description": "The Sony WH-1000XM4 offers premium noise-cancellation and high-quality sound for a superior listening experience.",
+    "keyFeatures": [
+      "Industry-leading Noise Cancellation",
+      "Hi-Res Audio",
+      "30-hour Battery Life",
+      "Touch Controls"
+    ],
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "reviewer": "Audiophile2023",
+        "time": "2023-07-25T15:35:16.951+00:00",
+        "message": "The best noise-cancelling headphones I've ever used."
+      },
+      {
+        "reviewer": "TechEnthusiast22",
+        "time": "2023-07-26T09:05:45.321+00:00",
+        "message": "Exceptional sound quality and comfort."
+      },
+      {
+        "reviewer": "MusicLover456",
+        "time": "2023-07-27T17:50:20.711+00:00",
+        "message": "Perfect for long listening sessions."
+      }
+    ]
+  }
+]
