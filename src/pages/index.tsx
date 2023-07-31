@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <Header head={head} />
-      <h1>hello next </h1>
+      <h1>hello next with husky </h1>
     </>
   );
 };
