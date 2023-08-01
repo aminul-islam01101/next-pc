@@ -1,4 +1,4 @@
-export type TGenericResponse ={
-    message: string;
-    data :[] | object;
-}
+export type TGenericResponse = {
+  message: string;
+  data: [] | object;
+};

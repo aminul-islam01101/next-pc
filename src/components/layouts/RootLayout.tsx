@@ -4,9 +4,10 @@ import {
   LinkedinFilled,
   TwitterSquareFilled,
 } from '@ant-design/icons';
-import { Dropdown, Layout, Space } from 'antd';
+import { Button, Dropdown, Layout, Space } from 'antd';
+import { signOut, useSession } from 'next-auth/react';
 import Link from 'next/link';
-import { FC, ReactNode, useEffect, useState } from 'react';
+import { FC, ReactNode } from 'react';
 
 const { Header, Content, Footer } = Layout;
 type RootLayoutProps = {
@@ -65,6 +66,8 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   //     .catch((error) => console.error('Error fetching categories:', error));
   // }, []);
 
+  const { data: session } = useSession();
+
   const link = ['monitor', 'motherboard'];
 
   const items =
@@ -82,43 +85,7 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
         })
       : undefined;
   return (
-    <Layout className="flex container flex-col justify-between min-h-screen">
-      <Header
-        style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-        }}
-      >
-        <h1>
-          <Link
-            href="/"
-            style={{
-              color: 'white',
-              backgroundColor: '#404040',
-              padding: '5px 10px',
-              borderRadius: '3px',
-            }}
-          >
-            NEXT PC
-          </Link>
-        </h1>
-        {/* <ul style={{ display: 'flex', gap: '20px' }}>
-          <li>
-            <Link href="/all-blogs">builder</Link>
-          </li>
-          <li>
-            <Link href="/about">About Us</Link>
-          </li>
-        
-        </ul> */}
-
-        <Dropdown menu={{ items }}>
-          <button type="button">
-            <Space>categories</Space>
-          </button>
-        </Dropdown>
-      </Header>
-
+    <Layout style={{ minHeight: '100vh' }} className="flex  flex-col justify-between">
       <Content
         style={{
           padding: '0 24px',

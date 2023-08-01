@@ -1,7 +1,6 @@
 import mongoose, { Document, Schema, models } from 'mongoose';
 
 export type TProduct = Document & {
- 
   image: string;
   productName: string;
   category: string;

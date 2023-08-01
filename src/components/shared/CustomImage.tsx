@@ -19,9 +19,9 @@ const CustomImage = ({ src, alt, priority }: Props) => {
         height={366}
         priority={prior}
         style={{
-            width: '100%',
-            height: 'auto',
-          }}
+          width: '100%',
+          height: 'auto',
+        }}
       />
     </div>
   );

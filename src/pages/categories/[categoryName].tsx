@@ -5,6 +5,7 @@ import { TProduct } from '../api/models/productModel';
 
 import Header from '@/components/UI/Head';
 import Products from '@/components/UI/Products';
+import { url } from '@/configs/env.configs';
 import { TGenericResponse } from '@/types/response';
 
 const CategoryDetailsPage: FC<{ products: TProduct[] }> = ({ products }) => {
@@ -17,7 +18,7 @@ const CategoryDetailsPage: FC<{ products: TProduct[] }> = ({ products }) => {
   return (
     <div className="container">
       <Header head={head} />
-      <h1 className="text-5xl">Products in {products[0].category} category</h1>
+      <h1 className="text-5xl">Products in {products[0]?.category} category</h1>
       <Products products={products} />
     </div>
   );
@@ -30,11 +31,11 @@ export default CategoryDetailsPage;
 // };
 export const getStaticPaths = async () => {
   try {
-    const response = await fetch('http://localhost:3000/api/categories');
+    const response = await fetch(`${url}/api/categories`);
     const data = (await response.json()) as TGenericResponse;
     const categories = data?.data as string[];
 
-    const paths = categories.map((category) => ({
+    const paths = categories?.map((category) => ({
       params: { categoryName: category },
     }));
 
@@ -47,15 +48,23 @@ export const getStaticPaths = async () => {
 };
 
 export async function getStaticProps(context: GetStaticPropsContext) {
+  // if (typeof window === 'undefined') {
+  //   return { props: { products: [] } };
+  // }
+
   const { params } = context;
 
-  if (!params || typeof params.categoryName !== 'string') {
+  if (!params || typeof params?.categoryName !== 'string') {
     // Handle the case when categoryName is missing or not a string
-    return { notFound: true };
+    return {
+      props: {
+        products: [],
+      },
+    };
   }
 
   try {
-    const response = await fetch(`http://localhost:3000/api/categories/${params.categoryName}`);
+    const response = await fetch(`${url}/api/categories/${params.categoryName}`);
     const data = (await response.json()) as TGenericResponse;
     const products = data?.data as TProduct[];
     return {

@@ -15,7 +15,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         if (!product) {
           return res.status(404).json({ error: 'Product not found' });
         }
-        res.status(200).send({ message: 'success', data: product});
+        res.status(200).send({ message: 'success', data: product });
         break;
       }
       default: {

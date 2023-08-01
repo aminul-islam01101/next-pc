@@ -67,7 +67,7 @@ module.exports = {
     //   'base-200': '#ECE8DD',
     // },
   },
-  
+
   plugins: [],
   corePlugins: {
     preflight: false,
