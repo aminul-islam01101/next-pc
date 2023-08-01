@@ -12,6 +12,8 @@ type TProductProps = {
 };
 
 const Products: FC<TProductProps> = ({ products }) => {
+  console.log('🌼 🔥🔥 file: Products.tsx:15 🔥🔥 products🌼', products);
+
   const { Meta } = Card;
   return (
     <Row
@@ -30,29 +32,33 @@ const Products: FC<TProductProps> = ({ products }) => {
             span={8}
             style={{ display: 'flex', flexDirection: 'column', width: '100%' }} // Flexbox for equal height
           >
-            <Card
-              hoverable
-              cover={
-                <CustomImage
-                  src="https://img.freepik.com/free-vector/computer-design_1156-101.jpg?w=740&t=st=1690777381~exp=1690777981~hmac=84c26ca5aa2cdfa98b0bc14b9cdec4400483a737af67ae2ed4539b1314801135"
-                  //   responsive
-                  alt="product image"
-                />
-              }
-              style={{ flex: 1 }} // Allow the Card to grow and occupy equal space
+            <Link
+              href="/categories/[...slug]"
+              as={`/categories/${product?.category}/${product?._id as string}`}
             >
-              <Meta style={{ color: '#000fff' }} title={product?.productName} />
-              <div
-                className="line "
-                style={{
-                  height: '5px',
-                  margin: '20px 0',
-                  background: '#000',
-                  width: '100%',
-                }}
-              />
+              <Card
+                hoverable
+                cover={
+                  <CustomImage
+                    src="https://img.freepik.com/free-vector/computer-design_1156-101.jpg?w=740&t=st=1690777381~exp=1690777981~hmac=84c26ca5aa2cdfa98b0bc14b9cdec4400483a737af67ae2ed4539b1314801135"
+                    //   responsive
+                    alt="product image"
+                  />
+                }
+                style={{ flex: 1 }} // Allow the Card to grow and occupy equal space
+              >
+                <Meta style={{ color: '#000fff' }} title={product?.productName} />
+                <div
+                  className="line "
+                  style={{
+                    height: '5px',
+                    margin: '20px 0',
+                    background: '#000',
+                    width: '100%',
+                  }}
+                />
 
-              {/* <p
+                {/* <p
                 style={{
                   display: 'flex',
                   justifyContent: 'space-between',
@@ -73,12 +79,12 @@ const Products: FC<TProductProps> = ({ products }) => {
                 </span>
               </p> */}
 
-              <p style={{ fontSize: '15px' }}>
-                {product?.description.length > 100
-                  ? `${product?.description.slice(0, 70)}...`
-                  : product?.description}
-              </p>
-              <Link href={`/product/${product?._id as string}`}>
+                <p style={{ fontSize: '15px' }}>
+                  {product?.description.length > 100
+                    ? `${product?.description.slice(0, 70)}...`
+                    : product?.description}
+                </p>
+                {/* <Link href={`/product/${product?._id as string}`}> */}
                 <p
                   style={{
                     fontSize: '15px',
@@ -94,8 +100,9 @@ const Products: FC<TProductProps> = ({ products }) => {
                 >
                   Keep Reading <ArrowRightOutlined />
                 </p>
-              </Link>
-            </Card>
+                {/* </Link> */}
+              </Card>
+            </Link>
           </Col>
         ))}
     </Row>

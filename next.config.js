@@ -4,9 +4,9 @@ const nextConfig = {
   images: {
     domains: ['img.freepik.com'],
   },
-  typescript:{
-    ignoreBuildErrors: true
-  }
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 module.exports = nextConfig;

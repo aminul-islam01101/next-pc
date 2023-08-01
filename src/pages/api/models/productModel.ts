@@ -1,5 +1,11 @@
 import mongoose, { Document, Schema, models } from 'mongoose';
 
+type TReview = {
+  reviewer: string;
+  time: string;
+  message: string;
+};
+
 export type TProduct = Document & {
   image: string;
   productName: string;
@@ -10,9 +16,14 @@ export type TProduct = Document & {
   keyFeatures: string[];
   individualRating: number;
   averageRating: number;
-  reviews: string[];
+  reviews: TReview[];
   createdAt: Date;
 };
+const reviewSchema: Schema = new Schema({
+  reviewer: { type: String, required: true },
+  time: { type: String, required: true },
+  message: { type: String, required: true },
+});
 
 const productSchema: Schema = new Schema({
   image: { type: String, required: true },
@@ -24,12 +35,12 @@ const productSchema: Schema = new Schema({
   keyFeatures: { type: [String], required: true },
   individualRating: { type: Number, default: 0 },
   averageRating: { type: Number, default: 0 },
-  reviews: { type: [String], default: [] },
+  reviews: { type: [reviewSchema], default: [] },
   createdAt: {
     type: Date,
     immutable: true,
     default: () => Date.now(),
   },
 });
+
 export const Product = models.Product || mongoose.model<TProduct>('Product', productSchema);
-// export default mongoose.models.Product || Product;
