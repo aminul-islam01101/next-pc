@@ -65,7 +65,7 @@ const Navbar = () => {
         <li>
           <Dropdown menu={{ items }}>
             <button type="button" className="bg-transparent text-white border-0 ">
-              <Space>Categories</Space>
+              <Space style={{ cursor: 'pointer' }}>Categories</Space>
             </button>
           </Dropdown>
         </li>

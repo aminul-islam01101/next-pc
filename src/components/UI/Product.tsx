@@ -36,7 +36,6 @@ const { Title, Text } = Typography;
 // }
 
 const ProductDetailPage: React.FC<{ product: TProduct }> = ({ product }) => {
-  console.log(product);
   return (
     <div style={{ padding: '24px' }}>
       <Row gutter={24}>

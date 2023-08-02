@@ -32,33 +32,35 @@ const Products: FC<TProductProps> = ({ products }) => {
             span={8}
             style={{ display: 'flex', flexDirection: 'column', width: '100%' }} // Flexbox for equal height
           >
-            <Link
-              href="/categories/[...slug]"
-              as={`/categories/${product?.category}/${product?._id as string}`}
-            >
-              <Card
-                hoverable
-                cover={
-                  <CustomImage
-                    src="https://img.freepik.com/free-vector/computer-design_1156-101.jpg?w=740&t=st=1690777381~exp=1690777981~hmac=84c26ca5aa2cdfa98b0bc14b9cdec4400483a737af67ae2ed4539b1314801135"
-                    //   responsive
-                    alt="product image"
-                  />
-                }
-                style={{ flex: 1 }} // Allow the Card to grow and occupy equal space
-              >
-                <Meta style={{ color: '#000fff' }} title={product?.productName} />
-                <div
-                  className="line "
-                  style={{
-                    height: '5px',
-                    margin: '20px 0',
-                    background: '#000',
-                    width: '100%',
-                  }}
+            <Card
+              style={{
+                flex: 1,
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'space-between',
+              }}
+              hoverable
+              cover={
+                <CustomImage
+                  src="https://img.freepik.com/free-vector/computer-design_1156-101.jpg?w=740&t=st=1690777381~exp=1690777981~hmac=84c26ca5aa2cdfa98b0bc14b9cdec4400483a737af67ae2ed4539b1314801135"
+                  //   responsive
+                  alt="product image"
                 />
+              }
+              // Allow the Card to grow and occupy equal space
+            >
+              <Meta style={{ color: '#000fff' }} title={product?.productName} />
+              <div
+                className="line "
+                style={{
+                  height: '5px',
+                  margin: '20px 0',
+                  background: '#000',
+                  width: '100%',
+                }}
+              />
 
-                {/* <p
+              {/* <p
                 style={{
                   display: 'flex',
                   justifyContent: 'space-between',
@@ -79,30 +81,33 @@ const Products: FC<TProductProps> = ({ products }) => {
                 </span>
               </p> */}
 
-                <p style={{ fontSize: '15px' }}>
-                  {product?.description.length > 100
-                    ? `${product?.description.slice(0, 70)}...`
-                    : product?.description}
-                </p>
-                {/* <Link href={`/product/${product?._id as string}`}> */}
-                <p
-                  style={{
-                    fontSize: '15px',
-                    marginTop: '20px',
-                    backgroundColor: 'black',
-                    color: 'white',
-                    width: '100%',
-                    padding: '2px 5px ',
-                    fontWeight: '300',
-                    letterSpacing: '3px',
-                    textAlign: 'center',
-                  }}
-                >
-                  Keep Reading <ArrowRightOutlined />
-                </p>
-                {/* </Link> */}
-              </Card>
-            </Link>
+              <p style={{ fontSize: '15px' }}>
+                {product?.description.length > 100
+                  ? `${product?.description.slice(0, 70)}...`
+                  : product?.description}
+              </p>
+              {/* <Link href={`/product/${product?._id as string}`}> */}
+              <Link
+                href="/categories/[...slug]"
+                as={`/categories/${product?.category}/${product?._id as string}`}
+                style={{
+                  fontSize: '15px',
+                  marginTop: '20px',
+                  backgroundColor: 'black',
+                  color: 'white',
+                  width: '100%',
+                  padding: '2px 5px ',
+                  fontWeight: '300',
+                  letterSpacing: '3px',
+                  textAlign: 'center',
+                  display: 'flex',
+                  justifyContent: 'center',
+                }}
+              >
+                View Details <ArrowRightOutlined />
+              </Link>
+              {/* </Link> */}
+            </Card>
           </Col>
         ))}
     </Row>
