@@ -12,7 +12,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     switch (req.method) {
       case 'GET': {
         const product: TProduct | null = await Product.findOne({ _id: productId });
-        console.log('🌼 🔥🔥 file: [productId].ts:15 🔥🔥 handler 🔥🔥 product🌼', product);
 
         if (!product) {
           return res.status(404).json({ error: 'Product not found' });

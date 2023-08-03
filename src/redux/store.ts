@@ -2,10 +2,13 @@
 import { Action, configureStore, ThunkAction } from '@reduxjs/toolkit';
 
 import { publicApiSlice } from './api/apiSlice';
+import builderReducer from './features/builders/builderSlice';
 
 export const store = configureStore({
   reducer: {
     [publicApiSlice.reducerPath]: publicApiSlice.reducer,
+    builders: builderReducer,
+
     // [privateApiSlice.reducerPath]: privateApiSlice.reducer,
   },
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat([publicApiSlice.middleware]),

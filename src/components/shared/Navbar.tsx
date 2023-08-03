@@ -3,22 +3,25 @@ import { signOut, useSession } from 'next-auth/react';
 import Link from 'next/link';
 
 import { getAntDesignIcon } from '@/utils/getIcons';
+import { TProduct } from '@/pages/api/models/productModel';
 
 const { Header, Content, Footer } = Layout;
 
 export type TCategory = {
   name: string;
   link: string;
-  icon: string; // Add the icon property
+  icon: string;
+  product: TProduct | object;
 };
 
 export const categories: TCategory[] = [
-  { name: 'Monitor', link: 'monitor', icon: 'MonitorOutlined' },
-  { name: 'Motherboard', link: 'motherboard', icon: 'DesktopOutlined' },
-  { name: 'Others', link: 'others', icon: 'AppstoreOutlined' },
-  { name: 'Power Supply Unit', link: 'power-supply-unit', icon: 'PoweroffOutlined' },
-  { name: 'RAM', link: 'ram', icon: 'DatabaseOutlined' },
-  { name: 'Storage Device', link: 'storage-device', icon: 'HddOutlined' },
+  { name: 'Monitor', link: 'monitor', icon: 'MonitorOutlined', product: {} },
+  { name: 'Motherboard', link: 'motherboard', icon: 'DesktopOutlined', product: {} },
+  { name: 'Others', link: 'others', icon: 'AppstoreOutlined', product: {} },
+  { name: 'Power Supply Unit', link: 'power-supply-unit', icon: 'PoweroffOutlined', product: {} },
+  { name: 'Processor', link: 'processor', icon: 'PoweroffOutlined', product: {} },
+  { name: 'RAM', link: 'ram', icon: 'DatabaseOutlined', product: {} },
+  { name: 'Storage Device', link: 'storage-device', icon: 'HddOutlined', product: {} },
 ];
 const Navbar = () => {
   const { data: session } = useSession();

@@ -1,9 +1,12 @@
 import { Button, Card, Col, Rate, Row, Tag, Typography } from 'antd';
+import { useRouter } from 'next/router';
 import { FC } from 'react';
 
 import CustomImage from '../shared/CustomImage';
 
 import { TProduct } from '@/pages/api/models/productModel';
+import { addOrUpdateProduct } from '@/redux/features/builders/builderSlice';
+import { useAppDispatch } from '@/redux/hooks';
 
 const { Title, Text } = Typography;
 
@@ -12,6 +15,12 @@ type TProductProps = {
 };
 
 const CategoryHorizontalCards: FC<TProductProps> = ({ products }) => {
+  const router = useRouter();
+  const dispatch = useAppDispatch();
+  const handleSelect = async (product: TProduct) => {
+    dispatch(addOrUpdateProduct({ category: product.category, product }));
+    await router.push('/builders');
+  };
   return (
     <div style={{ padding: '24px' }}>
       {products.length >= 0 &&
@@ -47,7 +56,7 @@ const CategoryHorizontalCards: FC<TProductProps> = ({ products }) => {
                 </div>
               </Col>
               <Col span={4}>
-                <Button>Select</Button>
+                <Button onClick={(e) => handleSelect(product)}>Select</Button>
               </Col>
             </Row>
           </Card>

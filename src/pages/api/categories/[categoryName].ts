@@ -21,7 +21,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     case 'GET':
       try {
         const products = await Product.find({ category: categoryName }).exec();
-        console.log('🌼 🔥🔥 file: [categoryName].ts:24 🔥🔥 handler 🔥🔥 products🌼', products);
 
         res.status(200).send({ message: 'success', data: products });
       } catch (error) {
