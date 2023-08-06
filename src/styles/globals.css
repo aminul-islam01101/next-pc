@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -9,21 +9,26 @@
     @apply font-montserrat;
     margin: 0;
   padding: 0;
-  }
+  } */
 
 
 
   
   /* this is commit  update */
   
-  @layer components {
+  /* @layer components {
     .container {
       @apply m-[0_auto] w-90 max-w-[1440px] px-0  ;
     }
+   */
   
-  
-    body {
+    /* body {
       @apply dark:bg-gray-400 bg-slate-100;
     }
   
+  } */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }

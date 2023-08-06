@@ -66,31 +66,15 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   //     .catch((error) => console.error('Error fetching categories:', error));
   // }, []);
 
-  const { data: session } = useSession();
-
-  const link = ['monitor', 'motherboard'];
-
-  const items =
-    categories?.length > 0
-      ? categories?.map((category, index) => {
-          return {
-            label: (
-              <Link rel="noopener noreferrer" href={category.link}>
-                {category.name}
-              </Link>
-            ),
-            // label: category,
-            key: index,
-          };
-        })
-      : undefined;
   return (
     <Layout style={{ minHeight: '100vh' }} className="flex  flex-col justify-between">
       <Content
-        style={{
-          padding: '0 24px',
-          // minHeight: '80vh',
-        }}
+        style={
+          {
+            // padding: '0 24px',
+            // minHeight: '80vh',
+          }
+        }
       >
         {children}
       </Content>
@@ -123,7 +107,7 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
             <LinkedinFilled />
           </Link>
         </p>
-        News Pc ©2023 Created by webreality
+        Next Pc ©2023 Created by webreality
       </Footer>
     </Layout>
   );

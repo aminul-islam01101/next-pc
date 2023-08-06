@@ -45,7 +45,7 @@ export async function getStaticProps(context: GetStaticPropsContext) {
   if (!params || !Array.isArray(params.slug) || params.slug.length !== 2) {
     return {
       props: {
-        product: null, // Return null or appropriate default value when the product is not found
+        product: null,
       },
     };
   }
@@ -57,7 +57,7 @@ export async function getStaticProps(context: GetStaticPropsContext) {
     const product = data?.data as TProduct;
 
     if (!product || product.category !== category) {
-      return { notFound: true }; // Return 404 page when the product is not found or the category does not match
+      return { notFound: true };
     }
 
     return {

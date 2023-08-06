@@ -12,101 +12,48 @@ type TProductProps = {
 };
 
 const Products: FC<TProductProps> = ({ products }) => {
-  console.log('🌼 🔥🔥 file: Products.tsx:15 🔥🔥 products🌼', products);
-
   const { Meta } = Card;
   return (
-    <Row
-      gutter={{
-        xs: 8,
-        sm: 16,
-        md: 24,
-        lg: 32,
-      }}
-      style={{ display: 'flex', flexWrap: 'wrap', rowGap: '20px' }} // Apply flexbox to the Row
-    >
+    <Row style={{ rowGap: 20 }}>
       {products.length >= 0 &&
         products?.map((product: TProduct) => (
-          <Col
-            key={product._id as string}
-            span={8}
-            style={{ display: 'flex', flexDirection: 'column', width: '100%' }} // Flexbox for equal height
-          >
+          <Col xs={20} sm={12} lg={8} key={product._id as string}>
             <Card
               style={{
-                flex: 1,
+                height: '100%',
                 display: 'flex',
                 flexDirection: 'column',
-                justifyContent: 'space-between',
+                padding: 5,
+                margin: 10,
               }}
               hoverable
-              cover={
-                <CustomImage
-                  src="https://img.freepik.com/free-vector/computer-design_1156-101.jpg?w=740&t=st=1690777381~exp=1690777981~hmac=84c26ca5aa2cdfa98b0bc14b9cdec4400483a737af67ae2ed4539b1314801135"
-                  //   responsive
-                  alt="product image"
-                />
-              }
-              // Allow the Card to grow and occupy equal space
+              cover={<CustomImage src={product.image} alt="product image" />}
             >
               <Meta style={{ color: '#000fff' }} title={product?.productName} />
               <div
-                className="line "
-                style={{
-                  height: '5px',
-                  margin: '20px 0',
-                  background: '#000',
-                  width: '100%',
-                }}
+                className="line"
+                style={{ height: '5px', margin: '20px 0', background: '#000' }}
               />
-
-              {/* <p
-                style={{
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  width: '100%',
-                  color: 'gray',
-                  margin: '10px 0px',
-                  fontSize: '12px',
-                }}
-              >
-                <span>
-                  <CalendarOutlined /> {product?.release_date}
-                </span>
-                <span>
-                  <CommentOutlined /> {product?.comment_count} COMMENTS
-                </span>
-                <span>
-                  <ProfileOutlined /> {product?.category}
-                </span>
-              </p> */}
-
-              <p style={{ fontSize: '15px' }}>
+              <p style={{ fontSize: '15px', flex: 1 }}>
                 {product?.description.length > 100
                   ? `${product?.description.slice(0, 70)}...`
                   : product?.description}
               </p>
-              {/* <Link href={`/product/${product?._id as string}`}> */}
               <Link
                 href="/categories/[...slug]"
                 as={`/categories/${product?.category}/${product?._id as string}`}
                 style={{
                   fontSize: '15px',
-                  marginTop: '20px',
                   backgroundColor: 'black',
                   color: 'white',
-                  width: '100%',
-                  padding: '2px 5px ',
+                  padding: '2px 5px',
                   fontWeight: '300',
                   letterSpacing: '3px',
                   textAlign: 'center',
-                  display: 'flex',
-                  justifyContent: 'center',
                 }}
               >
                 View Details <ArrowRightOutlined />
               </Link>
-              {/* </Link> */}
             </Card>
           </Col>
         ))}

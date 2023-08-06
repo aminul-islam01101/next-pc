@@ -41,7 +41,7 @@ const ProductDetailPage: React.FC<{ product: TProduct }> = ({ product }) => {
       <Row gutter={24}>
         <Col span={8}>
           <CustomImage
-            src="https://img.freepik.com/free-vector/computer-design_1156-101.jpg?w=740&t=st=1690777381~exp=1690777981~hmac=84c26ca5aa2cdfa98b0bc14b9cdec4400483a737af67ae2ed4539b1314801135"
+            src={product.image}
             //   responsive
             alt="product image"
           />

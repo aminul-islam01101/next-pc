@@ -72,11 +72,11 @@ const Navbar = () => {
             </button>
           </Dropdown>
         </li>
-        <li>
+        {/* <li>
           <Link style={{ textDecoration: 'none', color: 'white' }} href="/profile">
             Profile
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link style={{ textDecoration: 'none', color: 'white' }} href="/builders">
             Builders

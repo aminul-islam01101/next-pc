@@ -28,10 +28,7 @@ const CategoryHorizontalCards: FC<TProductProps> = ({ products }) => {
           <Card style={{ marginBottom: 10 }} key={product._id as string}>
             <Row gutter={24}>
               <Col span={4}>
-                <CustomImage
-                  src="https://img.freepik.com/free-vector/computer-design_1156-101.jpg?w=740&t=st=1690777381~exp=1690777981~hmac=84c26ca5aa2cdfa98b0bc14b9cdec4400483a737af67ae2ed4539b1314801135"
-                  alt="product image"
-                />
+                <CustomImage src={product.image} alt="product image" />
               </Col>
               <Col span={16}>
                 <div>
